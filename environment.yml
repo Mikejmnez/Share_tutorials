@@ -1,0 +1,24 @@
+name: Earthdata2025
+channels:
+- conda-forge
+dependencies:
+- pip
+- numpy
+- python = 3.11
+- netCDF4
+- matplotlib
+- jupyterlab
+- cartopy
+- xarray
+- earthaccess
+- tqdm
+- dask
+- scipy
+- xoak
+- pip:
+  - git+https://github.com/pydap/pydap.git
+  - jupyter-contrib-nbextensions
+  - ipywidgets 
+  - widgetsnbextension
+
+
